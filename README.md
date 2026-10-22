@@ -2,21 +2,27 @@
 
 URL Decoder is a lightweight browser extension that automatically detects, decodes, and cleans encoded URLs. It helps reveal the real destination behind redirects, tracking links, and nested URL parameters.
 
+## 📦 Latest Release
+
+**Current Version:** v1.0.0
+
+Download the latest release from the [Releases](../../releases) page.
+
 ## ✨ Features
 
 - Automatic URL detection
 - Multi-layer URL decoding
 - Decode nested and heavily encoded URLs
 - Remove common tracking parameters:
-  - utm_source
-  - utm_medium
-  - utm_campaign
-  - utm_term
-  - utm_content
-  - fbclid
-  - gclid
-  - msclkid
-  - yclid
+  - `utm_source`
+  - `utm_medium`
+  - `utm_campaign`
+  - `utm_term`
+  - `utm_content`
+  - `fbclid`
+  - `gclid`
+  - `msclkid`
+  - `yclid`
 - Clean redirect links
 - Open decoded URLs instantly
 - Copy decoded URLs with one click
@@ -28,20 +34,21 @@ URL Decoder is a lightweight browser extension that automatically detects, decod
 
 ### Microsoft Edge
 
-1. Download or clone this repository.
-2. Open `edge://extensions`.
-3. Enable **Developer Mode**.
-4. Click **Load unpacked**.
-5. Select the extension folder.
-6. Start decoding URLs.
+1. Download the latest release from the Releases page.
+2. Extract the ZIP file.
+3. Open `edge://extensions`.
+4. Enable **Developer Mode**.
+5. Click **Load unpacked**.
+6. Select the extracted extension folder.
 
 ### Google Chrome
 
-1. Download or clone this repository.
-2. Open `chrome://extensions`.
-3. Enable **Developer Mode**.
-4. Click **Load unpacked**.
-5. Select the extension folder.
+1. Download the latest release from the Releases page.
+2. Extract the ZIP file.
+3. Open `chrome://extensions`.
+4. Enable **Developer Mode**.
+5. Click **Load unpacked**.
+6. Select the extracted extension folder.
 
 ## 🧪 Tested Features
 
@@ -83,3 +90,13 @@ Contributions, suggestions, bug reports, and feature requests are welcome.
 ## ⭐ Support
 
 If you find this project useful, consider starring the repository on GitHub.
+
+## 🚧 Roadmap
+
+Future improvements may include:
+
+- Advanced nested URL extraction
+- Additional tracking parameter cleanup
+- Improved browser compatibility
+- Enhanced history management
+- Optional URL validation tools
