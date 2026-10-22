@@ -1,0 +1,56 @@
+.hidden {
+    display: none;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.button-grid button {
+    height: 50px;
+    border: none;
+    border-radius: 14px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+.button-grid button:hover {
+    transform: translateY(-2px);
+}
+
+/* Open */
+#openBtn {
+    background: linear-gradient(135deg,#0078d4,#00a2ff);
+}
+
+/* Copy */
+#copyBtn {
+    background: linear-gradient(135deg,#0f9d58,#34c759);
+}
+
+/* Clean */
+#cleanBtn {
+    background: linear-gradient(135deg,#ff9500,#ffb340);
+}
+
+/* History */
+#historyBtn {
+    background: linear-gradient(135deg,#6a5acd,#8b5cf6);
+}
+
+#historyPanel {
+    margin-top: 12px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.historyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

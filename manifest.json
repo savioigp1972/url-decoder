@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "URL Decoder",
+  "version": "1.0",
+  "description": "Automatically detect, decode, clean and open encoded URLs.",
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "contextMenus"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "16": "icons/Designer.ico",
+    "48": "icons/Designer.ico",
+    "128": "icons/Designer.ico"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/Designer.ico",
+      "48": "icons/Designer.ico",
+      "128": "icons/Designer.ico"
+    }
+  }
+}

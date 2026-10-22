@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Decoder</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🔓 URL Decoder</h1>
+
+    <div id="status">
+        ✅ Ready
+    </div>
+
+    <textarea
+        id="decodedUrl"
+        readonly
+        placeholder="Decoded URL will appear here...">
+    </textarea>
+
+    <div class="button-grid">
+
+        <button id="openBtn" title="Open URL">
+            🚀
+        </button>
+
+        <button id="copyBtn" title="Copy URL">
+            📋
+        </button>
+
+        <button id="cleanBtn" title="Clean URL">
+            🧹
+        </button>
+
+        <button id="historyBtn" title="History">
+            📜
+        </button>
+
+    </div>
+
+    <!-- Hidden by default -->
+    <div id="historyPanel" class="hidden">
+
+        <div class="historyHeader">
+
+            <span>Recent History</span>
+
+            <button id="closeHistory">
+                ✖
+            </button>
+
+        </div>
+
+        <ul id="historyList">
+            <li>No history yet</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
