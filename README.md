@@ -91,12 +91,3 @@ Contributions, suggestions, bug reports, and feature requests are welcome.
 
 If you find this project useful, consider starring the repository on GitHub.
 
-## 🚧 Roadmap
-
-Future improvements may include:
-
-- Advanced nested URL extraction
-- Additional tracking parameter cleanup
-- Improved browser compatibility
-- Enhanced history management
-- Optional URL validation tools
